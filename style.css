@@ -1,0 +1,35 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: green;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#massage-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background-color: goldenrod;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
