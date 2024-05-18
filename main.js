@@ -10,8 +10,8 @@ let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("card-el");
 
 function getRandomCards() {
-  let randomCard1 = Math.floor(Math.random() * 16);
-  let randomCard2 = Math.floor(Math.random() * 16);
+  let randomCard1 = Math.floor(Math.random() * 16) + 1;
+  let randomCard2 = Math.floor(Math.random() * 16) + 1;
   return randomCard1, randomCard2;
 }
 
